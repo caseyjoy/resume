@@ -1,34 +1,56 @@
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
-  margin: 0px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color: grey;
   letter-spacing: .5px;
+  /* margin-top: 0; */
   /* text-transform: uppercase; */
 }
 
 .blue {
   background: #caecee;
-  color: #ffffff;
+  color: grey;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
 
 a {
   text-decoration: none;
+  font-weight: bold;;
 }
 
 nav a {
-  font-weight: bold;;
+  
   /* color: #ffffff;    */
 }
-nav a:visited {
+
+a:visited {
 color: grey;
-/*  */
 
 }
 
+footer a:visited {
+  color: #646464;
+}
 
-/* color: #caecee; */
+
+footer {
+  background: #84aaaa;
+}
+
+#contact {
+  color: white;
+}

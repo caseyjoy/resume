@@ -7,104 +7,113 @@
     <!-- Short description of the document (limit to 150 characters) -->
     <!-- This content *may* be used as a part of search engine results. -->
     <meta name="description" content="A description of the page">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
     <header class="blue">
-      <h1>Casey Joy</h1>
-      <nav>
-        <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#skills">skills</a></li>
-        <li><a href="#experience">experience</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-      </nav>
+      <div class="container">
+        <h1>Casey Joy</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
 
-      <section>
-        <h3>Software Developer, Designer, Artist</h3>
-        <img alt="An image of Casey Joy" src="./casey_resized.jpg">
-      </section>
+        <section>
+          <h3>Software Developer, Designer, Artist</h3>
+          <img alt="An image of Casey Joy" src="./casey_resized.jpg">
+        </section>
+      </div>
     </header>
     <main>
       <section id="about">
-        <h3>About</h3>
-        <h5>Function + Asthetic</h5>
-        <p>
-          I'm an artist with an inclination for programming. After going to art school, I decided to put my tech skills
-          to
-          use with Meticulon, where I did software QA and software development, and have worked there since, even after
-          Meticulon merged with Auticon.
+        <div class="container">
+          <h3>About</h3>
+          <h5>Function + Asthetic</h5>
+          <p>
+            I'm an artist with an inclination for programming. After going to art school, I decided to put my tech
+            skills
+            to
+            use with Meticulon, where I did software QA and software development, and have worked there since, even
+            after
+            Meticulon merged with Auticon.
 
-        </p>
-        <p>
-          My current focus is front end development, allowing me to combine all my skills for the greatest effect!
-        </p>
+          </p>
+          <p>
+            My current focus is front end development, allowing me to combine all my skills for the greatest effect!
+          </p>
+        </div>
       </section>
 
       <section id="skills" class="blue">
-        <h3>Skills</h3>
-        <ul>
-          <li>
-            <h5>Art/Design</h5>
-            <meter min="0" max="10" value="8"></meter>
-          </li>
-          <li>
-            <h5>Programming</h5>
-            <meter min="0" max="10" value="6"></meter>
-          </li>
-        </ul>
+        <div class="container">
+          <h3>Skills</h3>
+          <ul>
+            <li>
+              <h5>Art/Design</h5>
+              <meter min="0" max="10" value="8"></meter>
+            </li>
+            <li>
+              <h5>Programming</h5>
+              <meter min="0" max="10" value="6"></meter>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section id="experience">
-        <h3>Experience</h3>
-        <ul>
-          <li>
-            <h4>2014-2019</h4>
-            <h5>Meticulon</h5>
-            <h6>Job title.</h6>
-            <p>A summary of the experience at the company.</p>
-          </li>
-          <li>
-            <h4>2019-2020</h4>
-            <h5>Auticon</h5>
-            <h6>Job title.</h6>
-            <p>A summary of the experience at the company.</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h3>Experience</h3>
+          <ul>
+            <li>
+              <h4>2014-2019</h4>
+              <h5>Meticulon</h5>
+              <h6>Job title.</h6>
+              <p>A summary of the experience at the company.</p>
+            </li>
+            <li>
+              <h4>2019-2020</h4>
+              <h5>Auticon</h5>
+              <h6>Job title.</h6>
+              <p>A summary of the experience at the company.</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
       <section id="contact">
-        <h2>Casey Joy</h2>
-        <h5>Software Developer, Designer, Artist</h5>
+        <div class="container">
+          <h2>Casey Joy</h2>
+          <h5>Software Developer, Designer, Artist</h5>
 
-        <a href="./CV.txt" download>
-          <button>
-            Download CV
-          </button>
-        </a>
-
-      </section>
-      <section>
-        <ul>
-          <li>
-            <a target="mailto:" href="">Email:</a>
-          </li>
-          <li>
-            <a target="tel:" href="">Phone:</a>
-          </li>
-          <li>
-            <a target=" _blank" href="https://github.com/caseyjoy">Github</a>
-          </li>
-          <li>
-            <a target="_blank" href="https://gitlab.com/caseyjoy">Gitlab</a>
-          </li>
-        </ul>
+          <a href="./CV.txt" download>
+            <button>
+              Download CV
+            </button>
+          </a>
+          <ul>
+            <li>
+              <a target="mailto:" href="">Email:</a>
+            </li>
+            <li>
+              <a target="tel:" href="">Phone:</a>
+            </li>
+            <li>
+              <a target=" _blank" href="https://github.com/caseyjoy">Github</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://gitlab.com/caseyjoy">Gitlab</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </footer>
   </body>
