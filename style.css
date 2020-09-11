@@ -32,7 +32,7 @@ p {
 }
 
 .container {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -78,6 +78,13 @@ footer a:visited {
 
 footer {
   background: #84aaaa;
+  margin: 0px;
+}
+
+#footer-row {
+  display: flex;
+  align-items: center;
+  
 }
 
 #contact {
@@ -120,3 +127,28 @@ footer {
   font-size: 36px;
 }
 
+
+
+button {
+  padding: 10px;
+  border: 0;
+}
+
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+  padding: 10px 0;
+}
+
+.skill-name {
+  display: flex;
+  min-width: 180px;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
