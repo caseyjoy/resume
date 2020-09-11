@@ -1,3 +1,34 @@
-header {
-  background: blue;
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  margin: 0px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  letter-spacing: .5px;
+  /* text-transform: uppercase; */
+}
+
+.blue {
+  background: #caecee;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  font-weight: bold;;
+  /* color: #ffffff;    */
+}
+nav a:visited {
+color: grey;
+/*  */
+
+}
+
+
+/* color: #caecee; */
