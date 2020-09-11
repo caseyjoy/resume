@@ -11,7 +11,7 @@ meter::-webkit-meter-bar {
 meter::-webkit-meter-optimum-value {
   background: var(--accent);
 }
-}
+
 
 meter::-moz-meter-bar {
   -moz-appearance: meterchunk;
@@ -44,7 +44,7 @@ body {
 }
 
 *::selection {
-  background-color: grey;
+  background-color: #808080;
   color:white;
 }
 
@@ -195,7 +195,7 @@ button {
 }
 
 
-#skills {
+#skills-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
