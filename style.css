@@ -12,8 +12,18 @@ ul {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .5px;
-  /* margin-top: 0; */
+  margin: 0;
   /*  */
+}
+
+p {
+  margin: 0;
+}
+
+.summary {
+  box-sizing: border-box;
+  border-top: 1px grey solid;
+  margin-top: 5px;
 }
 
 .blue {
@@ -32,9 +42,9 @@ a {
   font-weight: bold;
 }
 
-.menu-link {
-  padding: 0 10px;
-}
+/* .menu-link {
+padding: 0 10px;
+} */
 
 .menu {
   font-weight: bold;
@@ -51,8 +61,14 @@ ul li {
 }
 
 a:visited {
-color: grey;
+  color: grey;
 
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer a:visited {
@@ -67,3 +83,40 @@ footer {
 #contact {
   color: white;
 }
+
+
+.job {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+
+/* Getting these right was tricky! */
+ .job-col-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-width: 200px; /* see if there's a way to do this with grow and have them all be the same width */
+  max-width: 200px;
+} 
+
+.job-col-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.date {
+  color: blue;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.company {
+  margin-right: 10px;
+  font-weight: bold;
+  color: grey;
+  font-size: 36px;
+}
+
