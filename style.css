@@ -4,6 +4,8 @@
   --contrast: #646464;
   --faint: #cecece;
   --bright: #ffffff;
+
+  --bar-height: 30px;
 }
 
 
@@ -11,9 +13,11 @@ meter::-webkit-meter-bar {
   border-radius: 20px;
   background: var(--bright);
   border: none;
+  height: var(--bar-height);
 }
 meter::-webkit-meter-optimum-value {
   background: var(--accent);
+  height: var(--bar-height);
 }
 
 
@@ -21,12 +25,14 @@ meter::-moz-meter-bar {
   -moz-appearance: meterchunk;
   border-radius: 20px;
   border: none;
+  height: var(--bar-height);
 
 }
 
 meter:-moz-meter-optimum  {
   border-radius: 20px;
   background: var(--bright);
+  height: var(--bar-height);
 }
 
 
@@ -45,6 +51,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
   margin: 0;
+  overflow: auto;
 }
 
 *::selection {
@@ -54,7 +61,7 @@ body {
 
 ul {
   list-style-type: none;
-
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,7 +88,7 @@ p {
 }
 
 .container {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -175,8 +182,8 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  min-width: 200px; /* see if there's a way to do this with grow and have them all be the same width */
-  max-width: 200px;
+  min-width: 170px; /* see if there's a way to do this with grow and have them all be the same width */
+  max-width: 170px;
 } 
 
 .job-col-right {
@@ -211,7 +218,8 @@ button {
 #skills-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding: 0;
+  /* justify-content: space-between; */
 }
 
 .skill {
