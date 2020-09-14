@@ -44,7 +44,7 @@ meter:-moz-meter-optimum::-moz-meter-bar  {
 
 
 img {
-  border-radius: 10px;;
+  border-radius: 10px;
 }
 
 body {
@@ -68,12 +68,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .5px;
   margin: 0;
-  /*  */
-}
-
-p {
-  margin: 0;
-  /* text-indent: 50px; */
 }
 
 .summary {
