@@ -89,6 +89,7 @@ p {
 
 .container {
   width: 90%;
+  max-width: 900px;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -162,7 +163,7 @@ footer {
 #footer-row {
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
 }
 
 #contact {
@@ -192,6 +193,10 @@ footer {
   justify-content: space-evenly;
   border-left: 1px var(--faint) solid;
   padding-left: 10px;
+}
+
+.job-title {
+  font-weight: bold;
 }
 
 .date {
@@ -232,4 +237,21 @@ button {
   min-width: 180px;
   justify-content: flex-end;
   margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 650px) {
+  #name-top {
+    border-right: 1px var(--faint) solid;
+    padding-right: 5px;
+    margin-right: 13px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #name-bottom {
+    border-right: 1px var(--faint) solid;
+    padding-right: 5px;
+    margin-right: 13px;
+  }
 }
