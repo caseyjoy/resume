@@ -90,6 +90,10 @@ a {
   text-decoration: none;
   font-weight: bold;
   padding: 5px;
+  color: grey;
+
+  transition: background-color 200ms linear 0ms, 
+  color 200ms linear 0ms;
 }
 
 a:visited {
@@ -97,10 +101,15 @@ a:visited {
 
 }
 
-
 a:hover, a:visited:hover {
   color: white;
   background-color: grey;
+  transition: background-color 200ms linear 0ms, 
+              color 200ms linear 0ms;
+  /* transition-property: background-color;
+  transition-duration: 1000ms;
+  transition-timing-function: linear;
+  transition-delay: 0ms; */
 }
 
 
